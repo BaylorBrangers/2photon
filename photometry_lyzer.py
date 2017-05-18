@@ -71,7 +71,7 @@ t=signal_averaging(signal_filt,500)
 # evenly sampled time at 200ms intervals
 # red dashes, blue squares and green triangles
 #plt.plot(t, t, 'r--', t, t**2, 'bs', t, t**3, 'g^')
-#plt.plot(signal_filt[[1,100000],1],(signal_filt[[1,100000],3]-signal_filt[[1,100000],2]),'r--',)
+plt.plot(signal_filt[[1,100000],1],(signal_filt[[1,100000],3]-signal_filt[[1,100000],2]),'r--',)
 
 
-#plt.plot(signal_filt[[1,300],1],signal_filt[[1,300],2],'r--')
+plt.plot(signal_filt[[1,300],1],signal_filt[[1,300],2],'r--')
